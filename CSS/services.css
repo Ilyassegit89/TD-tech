@@ -1,0 +1,43 @@
+section.services{
+    height: 100vh;
+}
+.service-1{
+    text-align: center;
+}
+.service-1 .part1{
+    padding-block: 1.7em;
+}
+.part1 p{
+    padding-inline: 27em;
+    padding-top: 2em;
+}
+.colum{
+    background-color: #ffffff;
+    
+}
+.col-lg-3.border.colum.p-3 {
+    background-color: white;
+    min-width: 30%;
+}
+span.customall{
+    position: relative;
+}
+span.customall::after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 3px;
+    border-radius: 2px;
+    width: 50%;
+    bottom: -8px;
+    left: 30%;
+
+}
+span.customall > span.custm{
+    font-weight: bold;
+    color: #2988fe;
+}
+div.colum:nth-child(2) {
+    box-shadow: 14px 12px 20px 4px rgb(0 0 0 / 25%);
+}
+  
